@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Weight, LeafyGreen, Dumbbell } from 'lucide-react';
@@ -6,7 +5,43 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
 const EducationalCards = () => {
+  const sectionRef = useRef<HTMLDivElement>(null);
   
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+    
+            const heading = entry.target.querySelector('.heading-animate');
+            if (heading) {
+              heading.classList.add('animate-slide-up');
+              heading.classList.remove('opacity-0');
+            }
+            
+            const cards = entry.target.querySelectorAll('.card-animate');
+            cards.forEach((card, index) => {
+              setTimeout(() => {
+                card.classList.add('animate-slide-up');
+                card.classList.remove('opacity-0');
+              }, index * 150);
+            });
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+    
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
 
   const cardData = [
     {

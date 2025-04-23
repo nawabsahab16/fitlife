@@ -1,9 +1,32 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Shield, Heart, Award } from 'lucide-react';
 
 const About = () => {
   const aboutRef = useRef<HTMLDivElement>(null);
+  
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-slide-up');
+            entry.target.classList.remove('opacity-0');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    
+    if (aboutRef.current) {
+      observer.observe(aboutRef.current);
+    }
+    
+    return () => {
+      if (aboutRef.current) {
+        observer.unobserve(aboutRef.current);
+      }
+    };
+  }, []);
 
   return (
     <section className="py-24 bg-background" ref={aboutRef}>

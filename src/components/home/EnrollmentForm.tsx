@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
@@ -39,10 +38,64 @@ const EnrollmentForm = () => {
     },
   });
   
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const leftContent = entry.target.querySelector('.left-content');
+            const rightContent = entry.target.querySelector('.right-content');
+            
+            if (leftContent) {
+              leftContent.classList.add('animate-slide-up');
+              leftContent.classList.remove('opacity-0');
+            }
+            
+            if (rightContent) {
+              setTimeout(() => {
+                rightContent.classList.add('animate-slide-up');
+                rightContent.classList.remove('opacity-0');
+              }, 300);
+            }
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+    
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
+  const onSubmit = async (data: FormValues) => {
+    setIsSubmitting(true);
+    
+    await new Promise(resolve => setTimeout(resolve, 1500));
+    
+    console.log('Form submitted:', data);
+    
+    toast({
+      title: "Enrollment Request Sent!",
+      description: "We'll contact you soon to complete your registration.",
+    });
+    
+    form.reset();
+    setIsSubmitting(false);
+  };
+
   return (
     <section className="py-20 bg-background" id="enrollment" ref={sectionRef}>
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="left-content opacity-0 translate-y-4 transition-all duration-700">
+            <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-2">
               Join Our Community
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -52,7 +105,12 @@ const EnrollmentForm = () => {
               Fill out this quick form and start your fitness journey today. Our team will contact you to discuss membership options and answer any questions.
             </p>
             
-          
+            <div className="relative">
+              <img 
+                src="https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                alt="Happy gym members" 
+                className="rounded-2xl w-full h-auto object-cover shadow-lg"
+              />
               <div className="absolute -bottom-5 -right-5 glass-panel rounded-xl p-4 max-w-xs shadow-lg">
                 <div className="flex items-start gap-3">
                   <div className="rounded-full bg-green-500/20 p-2 text-green-600">
