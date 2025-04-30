@@ -75,6 +75,7 @@ const NavBar = () => {
           </nav>
         )}
 
+        {/* Mobile menu */}
         {isMobile && mobileMenuOpen && (
           <div className="absolute top-16 left-0 right-0 bg-white/95 backdrop-blur-md shadow-lg animate-slide-down">
             <nav className="flex flex-col items-center py-4 space-y-4">
