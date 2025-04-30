@@ -18,7 +18,7 @@ const exerciseData: Exercise[] = [
     equipment: "Bodyweight",
     difficulty: "Beginner",
     description: "A compound exercise that primarily targets the chest, shoulders, and triceps.",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://images.unsplash.com/photo-1518644961665-ed172691aaa1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFB1c2glMjB1cHxlbnwwfHwwfHx8MA%3D%3D",
     instructions: [
       "Start in a plank position with hands slightly wider than shoulder-width apart",
       "Lower your body until your chest nearly touches the floor",
@@ -34,7 +34,7 @@ const exerciseData: Exercise[] = [
     equipment: "Bodyweight",
     difficulty: "Beginner",
     description: "A fundamental lower body exercise that targets the quadriceps, hamstrings, and glutes.",
-    image: "https://images.unsplash.com/photo-1580261450046-d0a30080dc9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1686&q=80",
+    image: "https://images.unsplash.com/photo-1649887974297-4be052375a67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3F1YXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1770&q=80",
     instructions: [
       "Stand with feet slightly wider than hip-width apart",
       "Keep your chest up and spine neutral",
@@ -51,7 +51,7 @@ const exerciseData: Exercise[] = [
     equipment: "Bodyweight",
     difficulty: "Beginner",
     description: "An isometric core exercise that builds endurance and stability in the abdominals and back.",
-    image: "https://images.unsplash.com/photo-1566241142559-40e1dab266d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1664528916907-4251f1ee7c3d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fFBsYW5rfGVufDB8fDB8fHww",
     instructions: [
       "Start in a push-up position, then bend your elbows 90 degrees and rest your weight on your forearms",
       "Keep your body in a straight line from head to feet",
@@ -67,7 +67,7 @@ const exerciseData: Exercise[] = [
     equipment: "Dumbbells",
     difficulty: "Intermediate",
     description: "A strength exercise that targets the chest, shoulders, and triceps using dumbbells.",
-    image: "https://images.unsplash.com/photo-1534368786749-b63e05c90863?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://media.gettyimages.com/id/1173575654/photo/heres-to-a-better-looking-chest.jpg?s=612x612&w=0&k=20&c=wEJx8ecyyBsBfPH-pgl7hBXnmj26yu_fhiPH8VDmaoc=",
     instructions: [
       "Lie on a flat bench with a dumbbell in each hand at shoulder level",
       "Press the dumbbells up until your arms are fully extended",
@@ -83,7 +83,7 @@ const exerciseData: Exercise[] = [
     equipment: "Pull-up Bar",
     difficulty: "Intermediate",
     description: "A compound upper body exercise that primarily targets the back and biceps.",
-    image: "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
+    image: "https://images.unsplash.com/photo-1605296867424-35fc25c9212a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UHVsbCUyMHVwfGVufDB8fDB8fHww",
     instructions: [
       "Hang from a pull-up bar with hands slightly wider than shoulder-width apart",
       "Pull your body up until your chin is above the bar",
@@ -99,7 +99,7 @@ const exerciseData: Exercise[] = [
     equipment: "Barbell",
     difficulty: "Advanced",
     description: "A compound strength exercise that works multiple muscle groups, particularly the back, glutes, and hamstrings.",
-    image: "https://images.unsplash.com/photo-1517344884509-a0c97ec11bcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1661963174428-93d9a3024aa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGVhZGxpZnR8ZW58MHx8MHx8fDA%3D",
     instructions: [
       "Stand with feet hip-width apart, with the barbell over the middle of your feet",
       "Bend at the hips and knees to lower your hands to the bar, keeping your back straight",
@@ -116,7 +116,7 @@ const exerciseData: Exercise[] = [
     equipment: "Bodyweight",
     difficulty: "Beginner",
     description: "A dynamic core exercise that targets the rectus abdominis and obliques.",
-    image: "https://images.unsplash.com/photo-1616803689943-5601631c7fec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://media.gettyimages.com/id/1303653391/photo/young-woman-doing-bicycle-crunch-exercise.jpg?s=612x612&w=0&k=20&c=9cHjd_JNnQGoNihbMyKS4hvmTgafwLEHwHNV9_Mvmg8=",
     instructions: [
       "Lie on your back with hands behind your head and legs raised with knees bent at 90 degrees",
       "Bring one knee towards your chest while extending the other leg",
@@ -148,7 +148,7 @@ const exerciseData: Exercise[] = [
     equipment: "Bodyweight",
     difficulty: "Beginner",
     description: "A unilateral lower body exercise that works the quadriceps, hamstrings, and glutes.",
-    image: "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://images.unsplash.com/photo-1652363723009-3f2f4d85428e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8THVuZ2VzfGVufDB8fDB8fHww",
     instructions: [
       "Stand with feet hip-width apart",
       "Take a step forward with one leg",
@@ -180,7 +180,7 @@ const exerciseData: Exercise[] = [
     equipment: "Bodyweight",
     difficulty: "Beginner",
     description: "A rotational core exercise that targets the obliques and deep abdominal muscles.",
-    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80",
+    image: "https://media.gettyimages.com/id/1607183835/photo/group-of-young-woman-doing-russian-twists-abs-exercises-with-raised-legs-for-stomach-weight.jpg?s=612x612&w=0&k=20&c=UqioVJEyGGKZ3XNpDoGaF2flc802c2YQPRnztqAA790=",
     instructions: [
       "Sit on the floor with knees bent and feet elevated slightly",
       "Lean back slightly to engage your core, keeping your back straight",
@@ -196,7 +196,7 @@ const exerciseData: Exercise[] = [
     equipment: "Barbell",
     difficulty: "Intermediate",
     description: "A compound exercise that primarily targets the back muscles, especially the lats and rhomboids.",
-    image: "https://images.unsplash.com/photo-1603287681836-b174ce5074c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80",
+    image: "https://media.gettyimages.com/id/1339044286/photo/a-strong-young-woman-doing-a-single-arm-landmine-row.jpg?s=612x612&w=0&k=20&c=0cZay0PWsZKn4efxCeJE9ixESZzQ3cOfZCqhfv4D2ag=",
     instructions: [
       "Stand with feet hip-width apart, knees slightly bent",
       "Hold a barbell with an overhand grip, hands wider than shoulder-width",
@@ -228,7 +228,7 @@ const exerciseData: Exercise[] = [
     equipment: "Battle Ropes",
     difficulty: "Intermediate",
     description: "A high-intensity exercise that builds cardio, power, and endurance while targeting multiple muscle groups.",
-    image: "https://images.unsplash.com/photo-1520445740767-c2fc4b5d0929?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://images.unsplash.com/photo-1434596922112-19c563067271?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QmF0dGxlJTIwUm9wZXN8ZW58MHx8MHx8fDA%3D",
     instructions: [
       "Stand with feet shoulder-width apart, holding one end of the rope in each hand",
       "Keep a slight bend in your knees and engage your core",
@@ -277,7 +277,7 @@ const exerciseData: Exercise[] = [
     equipment: "Barbell",
     difficulty: "Intermediate",
     description: "A compound lower body exercise that emphasizes the quadriceps more than traditional back squats.",
-    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80",
+    image: "https://media.gettyimages.com/id/855121672/photo/every-rep-makes-more-muscles.jpg?s=612x612&w=0&k=20&c=LdS-FgoNgPnmsDjxPGyaowqHxmh103JjKc_n46eataM=",
     instructions: [
       "Position the barbell on the front of your shoulders, with elbows high",
       "Create a 'shelf' with your shoulders to hold the bar in place",
@@ -293,7 +293,7 @@ const exerciseData: Exercise[] = [
     equipment: "Medicine Ball",
     difficulty: "Beginner",
     description: "A dynamic exercise that develops power, core strength, and serves as an excellent stress reliever.",
-    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://media.gettyimages.com/id/1325565788/photo/side-view-of-young-muscular-man-training-on-the-beach-shirtless-doing-squat-slam-with.jpg?s=612x612&w=0&k=20&c=St9qv1zZcSxpMhJM9KbWTDYsyeHrhydAoACH5ixwEnU=",
     instructions: [
       "Stand with feet shoulder-width apart, holding a medicine ball",
       "Raise the ball overhead, fully extending your body",
@@ -309,7 +309,7 @@ const exerciseData: Exercise[] = [
     equipment: "Pull-up Bar",
     difficulty: "Intermediate",
     description: "An effective core exercise that targets the lower abdominals and hip flexors.",
-    image: "https://images.unsplash.com/photo-1616803689943-5601631c7fec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://media.gettyimages.com/id/1149146477/photo/young-athletic-man-doing-an-ab-workout-and-pull-ups.jpg?s=612x612&w=0&k=20&c=acAnJHGGB8t3WTQN7xPQe2ePR9FQW_Y6l4Ix0I6-mtk=",
     instructions: [
       "Hang from a pull-up bar with hands shoulder-width apart",
       "Keep your shoulders engaged and core tight",
@@ -325,7 +325,7 @@ const exerciseData: Exercise[] = [
     equipment: "Bodyweight",
     difficulty: "Intermediate",
     description: "A high-intensity cardio exercise that works the entire body and builds endurance and strength.",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://media.gettyimages.com/id/493913138/photo/burpee.jpg?s=612x612&w=0&k=20&c=ykIouyc-11EwnHLEILkdbcS1VUrzT4jEm88H4vkM1_Y=",
     instructions: [
       "Start in a standing position, then squat down and place hands on the floor",
       "Jump feet back into a plank position",
@@ -342,7 +342,7 @@ const exerciseData: Exercise[] = [
     equipment: "Bodyweight",
     difficulty: "Beginner",
     description: "A dynamic core exercise that also provides cardiovascular benefits and improves coordination.",
-    image: "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
+    image: "https://media.gettyimages.com/id/1323017008/photo/outdoor-porch-mountain-climbing-exercise-by-beautiful-female.jpg?s=612x612&w=0&k=20&c=Lz3U9zBVVuYJvw7gKNNXp0M_9opCwjeda6OeFYgn0H8=",
     instructions: [
       "Start in a high plank position with hands directly under shoulders",
       "Keep your core engaged and back flat",
@@ -358,7 +358,7 @@ const exerciseData: Exercise[] = [
     equipment: "Cable Machine",
     difficulty: "Intermediate",
     description: "An isolation exercise that targets the pectoral muscles, particularly the inner chest.",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://media.gettyimages.com/id/1607183930/photo/sporty-woman-exercising-on-multistation-at-gym-for-arm-and-shoulders-muscles-fitness.jpg?s=612x612&w=0&k=20&c=QRCNBVzPLr6i99CRo2IW3mc6MkzTL5e4j_6-T713l_Y=",
     instructions: [
       "Stand between two cable stations with handles positioned above head height",
       "Grab the handles and step forward, with one foot in front of the other for stability",
@@ -374,7 +374,7 @@ const exerciseData: Exercise[] = [
     equipment: "Dumbbells",
     difficulty: "Beginner",
     description: "A functional exercise that builds grip strength, core stability, and overall body strength.",
-    image: "https://images.unsplash.com/photo-1534368786749-b63e05c90863?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://media.gettyimages.com/id/1255357281/photo/zaporizhzhia-ukraine-may-04-2023-an-athlete-performs-the-farmers-walk-exercise-as-part-of-the.jpg?s=612x612&w=0&k=20&c=m0SD8L4uVr0JFUaKW4hHw72TOqwFQuzmBfoxzLgETzE=",
     instructions: [
       "Hold a heavy dumbbell or kettlebell in each hand at your sides",
       "Stand tall with shoulders back and core engaged",

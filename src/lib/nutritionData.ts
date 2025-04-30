@@ -94,7 +94,7 @@ const nutritionData: NutritionItem[] = [
     carbs: 66.3,
     fat: 6.9,
     fiber: 10.6,
-    image: "https://images.unsplash.com/photo-1599488381004-5eba40e8342c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://images.unsplash.com/photo-1586810504230-09dab6b8e01b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8T2F0c3xlbnwwfHwwfHx8MA%3D%3D",
     servingSize: "100g (dry)"
   },
   {
@@ -106,7 +106,7 @@ const nutritionData: NutritionItem[] = [
     carbs: 0.4,
     fat: 5,
     fiber: 0,
-    image: "https://images.unsplash.com/photo-1607690424560-8ab664c85a11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://images.unsplash.com/photo-1607690424395-6660d838d818?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RWdnfGVufDB8fDB8fHww",
     servingSize: "1 large egg"
   },
   {
@@ -118,7 +118,7 @@ const nutritionData: NutritionItem[] = [
     carbs: 21.7,
     fat: 49.9,
     fiber: 12.5,
-    image: "https://images.unsplash.com/photo-1510430842590-e783163d4302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1675237626334-5cf9d9d8b30c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWxtb25kc3xlbnwwfHwwfHx8MA%3D%3D",
     servingSize: "100g"
   },
   {
@@ -142,7 +142,7 @@ const nutritionData: NutritionItem[] = [
     carbs: 20.1,
     fat: 0.1,
     fiber: 3,
-    image: "https://images.unsplash.com/photo-1596097690514-498971808621?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1675365780148-a00379c54123?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3dlZXQlMjBQb3RhdG98ZW58MHx8MHx8fDA%3D",
     servingSize: "100g"
   },
   {
@@ -154,7 +154,7 @@ const nutritionData: NutritionItem[] = [
     carbs: 21.3,
     fat: 1.9,
     fiber: 2.8,
-    image: "https://images.unsplash.com/photo-1610725657432-f790041bd64c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=874&q=80",
+    image: "https://images.unsplash.com/photo-1615865417491-9941019fbc00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UXVpbm9hfGVufDB8fDB8fHww",
     servingSize: "100g (cooked)"
   },
   {
@@ -166,7 +166,7 @@ const nutritionData: NutritionItem[] = [
     carbs: 14.5,
     fat: 0.3,
     fiber: 2.4,
-    image: "https://images.unsplash.com/photo-1457301608217-56ba2e95eaf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    image: "https://images.unsplash.com/photo-1600274737421-4813870867dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEJsdWViZXJyaWVzfGVufDB8fDB8fHww",
     servingSize: "100g"
   },
   {
