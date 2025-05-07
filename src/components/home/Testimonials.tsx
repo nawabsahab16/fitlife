@@ -14,7 +14,7 @@ const testimonials = [
     id: 1,
     name: "Priya Sharma",
     role: "Marathon Runner",
-    image: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    image: "https://images.unsplash.com/photo-1708011108776-45ad9e625269?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW5kaWElMjBneW0lMjBnaXJsfGVufDB8fDB8fHww",
     quote: "FitLife completely transformed my marathon training. The personalized plans and nutrition tracking helped me shave 15 minutes off my personal best!",
     rating: 5
   },
@@ -22,7 +22,7 @@ const testimonials = [
     id: 2,
     name: "Rahul Patel",
     role: "Fitness Enthusiast",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    image: "https://images.unsplash.com/photo-1693214099505-aadb39c60c90?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWElMjBneW0lMjBndXl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=774&q=80",
     quote: "As someone who struggled with consistency, the workout plans on FitLife have been a game-changer. I've gained 12 pounds of muscle in 3 months!",
     rating: 5
   },
@@ -30,7 +30,7 @@ const testimonials = [
     id: 3,
     name: "Ananya Singh",
     role: "Yoga Instructor",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    image: "https://images.unsplash.com/photo-1692182549439-2a78c119dc40?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eW9nYSUyMGluc3RydWN0b3J8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=774&q=80",
     quote: "The nutrition database is incredibly comprehensive. It's helped me optimize my diet for more energy and better recovery between yoga sessions.",
     rating: 4
   }

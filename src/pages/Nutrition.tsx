@@ -202,7 +202,7 @@ const Nutrition = () => {
                       </li>
                       <li className="flex items-start">
                         <span className="mr-2 text-primary">•</span>
-                        <span><strong>Protein</strong>: Essential for muscle building and repair</span>
+                        <span><strong>Protein</strong>: Essential for muscle building and repair</span> 
                       </li>
                       <li className="flex items-start">
                         <span className="mr-2 text-primary">•</span>
